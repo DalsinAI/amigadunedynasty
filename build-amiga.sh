@@ -48,7 +48,7 @@ fi
 # --- compile (as Dune Dynasty's CMake: C99, its own include/, our buildcfg.h) ------
 SYSROOT="$TC/m68k-amigaos"
 ARCH="-mcrt=nix20 -m68040 -m68881 -pthread"
-CF="$ARCH -O2 -fomit-frame-pointer -fno-delete-null-pointer-checks -D_DEFAULT_SOURCE -DALLEGRO_STATICLINK=1 -D__AMIGAOS3__=1 -I$HERE/amiga -I$SRC/include -I$SRC/src -I$PFX/include -I$SYSROOT/include"
+CF="$ARCH -O2 -fomit-frame-pointer -fno-delete-null-pointer-checks -D_DEFAULT_SOURCE -DALLEGRO_STATICLINK=1 -D__AMIGAOS3__=1 -I$HERE/amiga -I$SRC/include -I$PFX/include -I$SYSROOT/include"
 O="$WORK/obj"; mkdir -p "$O"
 export CF O SRC
 set +e
