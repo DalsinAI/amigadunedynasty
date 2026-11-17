@@ -1,0 +1,5 @@
+DD_GIT=https://github.com/gameflorist/dunedynasty
+DD_COMMIT=755876a710c0b188075ebe89cb40c068490e08e2
+DD_VERSION=1.6.4
+ALLEGRO_GIT=https://github.com/DalsinAI/amigaallegro
+ALLEGRO_COMMIT=823f17f78511c2ae85b93fd7060cc9fffc47d4af
